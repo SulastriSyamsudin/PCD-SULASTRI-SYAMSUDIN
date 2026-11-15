@@ -145,9 +145,11 @@ plt.subplots_adjust(
 # Menyimpan gambar hasil
 plt.savefig(
     "hasil_filter_spasial_berwarna.png",
-    dpi=300,
+    format="png",
+    dpi=180,
     bbox_inches="tight"
 )
+
 
 plt.show()
 
